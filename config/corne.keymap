@@ -58,8 +58,8 @@
         Meta {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &to 5         &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &kp K_COPY    &trans        &kp K_PASTE     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &to 0         &to 5         &kp K_UNDO    &trans        &kp K_REDO      &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &to 6         &trans        &kp K_COPY    &trans        &kp K_PASTE     &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans        &trans        &trans          &trans  &trans  &trans
             >;
 
@@ -85,6 +85,28 @@
             >;
 
             label = "Qwerty";
+        };
+
+        Gaming {
+            bindings = <
+&kp ESC    &kp Q  &kp W  &kp E         &kp R  &kp T        &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp A  &kp S  &kp D         &kp F  &kp G        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V  &kp B        &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp LEFT_ALT  &mo 7  &kp SPACE    &trans  &trans  &trans
+            >;
+
+            label = "Gaming";
+        };
+
+        Numpad {
+            bindings = <
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "Numpad";
         };
     };
 };
