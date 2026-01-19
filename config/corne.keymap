@@ -77,10 +77,10 @@
 
         FPS {
             bindings = <
-&mt TAB ESCAPE    &kp Q  &kp W  &kp E   &kp R   &kp T        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &to 0
-&kp LEFT_CONTROL  &kp A  &kp S  &kp D   &kp F   &kp G        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&kp LEFT_SHIFT    &kp Z  &kp X  &kp C   &kp V   &kp B        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                                &trans  &trans  &kp SPACE    &trans  &trans        &trans
+&mt TAB ESCAPE    &trans  &kp Q  &kp W   &kp E   &kp R        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &to 0
+&kp LEFT_CONTROL  &trans  &kp A  &kp S   &kp D   &kp F        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&kp LEFT_SHIFT    &trans  &kp Z  &kp X   &kp C   &kp V        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                                 &trans  &trans  &kp SPACE    &trans  &trans        &trans
             >;
 
             label = "FPS";
